@@ -53,7 +53,6 @@ app.use("/api", apiRoutes);
 
 
 // ACTIVATE SERVER
-var port = 3000
-app.listen(port, function() {
-	console.log("SERVER LISTENING on: " + port);
+app.listen(PORT, function() {
+	console.log("SERVER LISTENING on: ", PORT);
 });
