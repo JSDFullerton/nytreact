@@ -33,14 +33,14 @@ module.exports = {
 
 			}// close else state
 		});// close api GET func
-	};// close runQuery func
+	},// close runQuery func
 
 	// GET SAVED ARTICLES FROM MONGO DB
 	getArticles() {
 
 		return axios.get("/api/saved");
 
-	};// close getArticles func.
+	},// close getArticles func.
 
 	
 	// POST NEW SEARCHED ARTICLEDS TO MONGO DB
