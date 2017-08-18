@@ -1,0 +1,47 @@
+
+body{
+  background: url('/assets/img/ny_background_2.jpg');
+}
+
+.jumbo  {
+  opacity: .8;
+
+  background-color: black;
+  color: white;
+}
+
+
+.panel-heading{
+
+  background-color: black !important;
+
+  opacity: .8 !important;
+  color: white !important;
+}
+
+.panel-default{
+  background: transparent;
+}
+.panel-body{
+  background: white;
+}
+.panel-title{
+  font-size: 2em;
+}
+.text-label{
+  font-size: 1.5em;
+}
+
+#searchButton{
+  font-size: 1.5em;
+}
+
+.navbar-brand{
+  font-size: 2em;
+}
+.navbar-right{
+  font-size: 1.2em;
+}
+.navbar{
+  padding: .8%;
+}

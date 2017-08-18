@@ -4,7 +4,6 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var logger = require("morgan");
 var mongoose = require("mongoose");
-var favicon = require("serv-favicon");
 var path = require("path");
 
 // ACTIVATE EXPRESS & DEFINE PORT

@@ -1,0 +1,23 @@
+{
+  "name": "ntyreact",
+  "version": "1.0.0",
+  "description": "Article Search app build on React JS",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.7",
+    "mongoose-unique-validator": "^1.0.5",
+    "morgan": "^1.8.2",
+    "path": "^0.12.7",
+    "routes": "^2.1.0",
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "John Fullerton",
+  "license": "MIT"
+}

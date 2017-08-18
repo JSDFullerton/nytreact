@@ -1,5 +1,6 @@
 // REQUIRE REACT
 var React = require("react");
+var Results = require("./Results");
 
 
 // CREATE CHILD COMPONENT - Search

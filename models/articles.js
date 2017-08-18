@@ -14,28 +14,28 @@
 			type: String,
 			required: true,
 			unique: true
-		}
+		},
 
 		date: {
 			type: String,
 			required: true,
 			unique: true
 
-		}
+		},
 		url: {
 			type: String,
 			required: true,
 			unique: true
-		}
+		},
 
 		author: {
 			type: String,
 			unique: true
-		}
+		},
 		section: {
 			type: String,
 			unique: true
-		}
+		},
 		saved: {
 			type: Boolean,
 			default: false
@@ -44,9 +44,9 @@
 	});// close ArchicleSchema var
 
 // ACTIVATE MONGOOSE UNIQUE VALIDATOR
-ArchicleSchema.plugin(uniqueValidator);
+ArticleSchema.plugin(uniqueValidator);
 
-ArchicleSchema.methods.saveArticle = function() {
+ArticleSchema.methods.saveArticle = function() {
 	this.saved = true;
 	return this.saved;
 };// close saveArticle validate funct

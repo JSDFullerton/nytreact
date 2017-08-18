@@ -76,7 +76,7 @@ class Main extends React.Component {
 
     				<div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       					<ul className="nav navbar-nav navbar-right">
-        					<li><a href="#">Search</a></li>
+        					<li><a href="#">Search for Articles</a></li>
         					<li><a href="#">Saved Articles</a></li>
       					</ul>
     				</div>
@@ -86,8 +86,8 @@ class Main extends React.Component {
 				<div className='container'>
 	  				<div className="row">
 	  					<div className="jumbotron jumbo text-center">
-	    					<h2><strong>(ReactJS) New York Times Article Scrubber</strong></h2>
-	    					<p>Search for and save articles of interest.</p>
+	    					<h2><strong>John!!!!! New York Times Article Search</strong></h2>
+	    					<p>Search and save articles of interest.</p>
 	  					</div>
 					</div>
 	          
