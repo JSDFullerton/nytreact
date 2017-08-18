@@ -71,7 +71,7 @@ class Main extends React.Component {
         					<span className="icon-bar"></span>
         					<span className="icon-bar"></span>
       						</button>
-      						<a className="navbar-brand" href="#">NYT-React</a>
+      						<a className="navbar-brand" href="#">NYT Search Home (React)</a>
     					</div>
 
     				<div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -86,7 +86,7 @@ class Main extends React.Component {
 				<div className='container'>
 	  				<div className="row">
 	  					<div className="jumbotron jumbo text-center">
-	    					<h2><strong>John!!!!! New York Times Article Search</strong></h2>
+	    					<h2><strong>John's New York Times Article Search</strong></h2>
 	    					<p>Search and save articles of interest.</p>
 	  					</div>
 					</div>
